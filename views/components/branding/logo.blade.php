@@ -1,0 +1,1 @@
+<h1 class="site-logo display-3 my-1"><?php echo (env('APP_NAME') == 'Laravel') ? 'Amaranth' : env('APP_NAME'); ?></h1>
