@@ -5,7 +5,7 @@
 </head>
 <body>
 <div class="bg-off-white">
-    <div class="bg-primary half-height p-left p-top p-right p-absolute"></div>
+    <div class="bg-half"></div>
     @yield('content')
 </div>
 @include('uiManager::actions.footer')
