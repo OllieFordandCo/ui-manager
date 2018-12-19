@@ -5,3 +5,4 @@ composer.lock
 storage/
 bootstrap/
 node_modules/
+.idea
