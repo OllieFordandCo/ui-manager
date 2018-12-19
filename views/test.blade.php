@@ -13,7 +13,7 @@
     <!-- Stylesheets -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link href="{{asset('/vendor/ui-manager/css/amaranth-ui.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('/assets/css/amaranth-ui.css')}}" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
     <script src="https://unpkg.com/simplebar@latest/dist/simplebar.js"></script>
     <style>
@@ -45,9 +45,6 @@
             background-color: #c30d40;
             box-shadow: inset 0 0 30px rgba(0,0,0,0.2);
         }
-        .full-height {
-            height: 100%;
-        }
         .title {
             color: #333333 !important;
             -webkit-background-clip: text;
@@ -56,38 +53,6 @@
             letter-spacing: -0.17rem;
             line-height: 1em;
             font-weight: 500;
-        }
-        .card {
-            background-color: #fff;
-            box-shadow: 0 0 30px rgba(0,0,0,0.1);
-            border: 1px solid rgba(0,0,0,0.15);
-            border-radius: 7px;
-        }
-        .card.card-dark {
-            background: rgb(34,34,34); /* Old browsers */
-            box-shadow: 0 0 30px rgba(0,0,0,0.5);
-            border-right: 1px solid rgba(255,255,255,0.05);
-            border-bottom: 1px solid rgba(255,255,255,0.05);
-            border-radius: 15px;
-        }
-        .card.card-contained {
-            overflow: hidden;
-        }
-        .card > header {
-            border-bottom: 1px solid rgba(255,255,255,0.05);
-        }
-        p {
-            font-weight: 400;
-        }
-        .card-sidebar {
-            background-color: rgba(255,255,255,0.03);
-        }
-        .card-sidebar .btn {
-            background-color: transparent;
-            transition: all 300ms linear;
-        }
-        .card-sidebar .btn:hover, .card-sidebar .active .btn {
-            background-color: rgba(0,0,0,0.1);
         }
         .orb {
             width: 7px;
