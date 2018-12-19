@@ -3,9 +3,11 @@
 <head>
     @include('uiManager::actions.head')
 </head>
-<body class="bg-primary">
-<div class="bg-half"></div>
-@yield('content')
+<body>
+<div class="bg-off-white">
+    <div class="bg-primary half-height p-left p-top p-right p-absolute"></div>
+    @yield('content')
+</div>
 @include('uiManager::actions.footer')
 </body>
 </html>
