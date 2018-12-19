@@ -64,6 +64,13 @@ function postCss() {
  Gulp Tasks
  */
 
+gulp.task('copy:mikado', function() {
+    gulp.src(['./node_modules/mikado/dist/js/**/*.js'], {
+        // Include hidden files by default
+        dot: false
+    }).pipe(gulp.dest('./public/js/'))
+});
+
 gulp.task('sass', function(cb) {
     $.async.series([
         function (next) {

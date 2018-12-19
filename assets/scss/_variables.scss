@@ -71,7 +71,9 @@ $colours: (
         green: #88c611,
         purple: #8429b5,
         primary: #e32759,
-        secondary: #f9d74c
+        secondary: #f9d74c,
+        facebook: #3b5997,
+        twitter: #0084b4
 );
 
 $danger: map-get($colours, red);
@@ -145,7 +147,7 @@ $container-default-width: map-get($container-max-widths, lg);
  */
 
 $default-font-stack: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
-$font-family-base: 'Nunito', $default-font-stack;
+$font-family-base: 'geomanistregular', $default-font-stack;
 $root-font-size: 14px;
 $font-size-base: 1rem;
 $font-weight-base: 400;
@@ -176,7 +178,7 @@ $headings-margin-bottom: .75em;
 $headings-font-family:   inherit;
 $headings-font-weight:   600;
 $headings-line-height:   1.1;
-$headings-color:         #777;
+$headings-color:        inherit;
 
 $display-sizes: (
         1: 6rem,
