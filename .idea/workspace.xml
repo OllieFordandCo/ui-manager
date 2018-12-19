@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24ca558b-606f-475e-b38f-cfcd860cc869" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/amaranth-ui/_scaffolding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/actions/fonts.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/actions/footer.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/actions/head.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/components/card.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/amaranth-ui.css" afterPath="$PROJECT_DIR$/assets/css/amaranth-ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/_variables.scss" afterPath="$PROJECT_DIR$/assets/scss/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/amaranth-ui.scss" afterPath="$PROJECT_DIR$/assets/scss/amaranth-ui.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/amaranth-ui.css" afterPath="$PROJECT_DIR$/public/css/amaranth-ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/test.blade.php" afterPath="$PROJECT_DIR$/views/test.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UIServiceProvider.php" afterPath="$PROJECT_DIR$/src/UIServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/actions/head.blade.php" afterPath="$PROJECT_DIR$/views/actions/head.blade.php" />
     </list>
     <ignored path="ui-manager.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,20 +26,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="UIServiceProvider.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/UIServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state vertical-scroll-proportion="1.3285094">
+              <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/test.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0785499">
+            <state vertical-scroll-proportion="-24.62069">
               <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
               <folding />
             </state>
@@ -59,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/views/actions/head.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -154,18 +145,18 @@
         <option value="$PROJECT_DIR$/config/ui-manager.php" />
         <option value="$PROJECT_DIR$/src/Providers/UIServiceProvider.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/UIServiceProvider.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/public/tests/ui-manager.html" />
         <option value="$PROJECT_DIR$/public/css/amaranth-ui.css" />
         <option value="$PROJECT_DIR$/views/components/card.blade.php" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/views/actions/head.blade.php" />
         <option value="$PROJECT_DIR$/assets/scss/amaranth-ui/_scaffolding.scss" />
         <option value="$PROJECT_DIR$/assets/scss/amaranth-ui.scss" />
         <option value="$PROJECT_DIR$/views/actions/fonts.blade.php" />
         <option value="$PROJECT_DIR$/assets/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/views/test.blade.php" />
+        <option value="$PROJECT_DIR$/views/actions/head.blade.php" />
+        <option value="$PROJECT_DIR$/src/UIServiceProvider.php" />
       </list>
     </option>
   </component>
@@ -251,6 +242,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui-manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui-manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -270,60 +275,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amaranth-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -600,14 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UIServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Http/Controllers/UIController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -688,18 +631,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/actions/head.blade.php">
+    <entry file="file://$PROJECT_DIR$/views/test.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+        <state vertical-scroll-proportion="-24.62069">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/test.blade.php">
+    <entry file="file://$PROJECT_DIR$/views/actions/head.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0785499">
-          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UIServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3285094">
+          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
           <folding />
         </state>
       </provider>

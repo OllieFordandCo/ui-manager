@@ -9,6 +9,13 @@ use Illuminate\Support\ServiceProvider as BaseServiceProvider;
  */
 class UIServiceProvider extends BaseServiceProvider
 {
+
+    public function bladeDirectives() {
+        \Blade::directive('ui-css', function () {
+            return "<link href=\"{{asset('/assets/css/amaranth-ui.css')}}\" rel=\"stylesheet\" type=\"text/css\">";
+        });
+    }
+
     /**
      * Bootstrap the application services.
      *
@@ -45,6 +52,8 @@ class UIServiceProvider extends BaseServiceProvider
      */
     public function register()
     {
+        $this->bladeDirectives();
+
         $this->mergeConfigFrom(
             __DIR__ . '/../config/ui-manager.php', 'ui-manager'
         );
