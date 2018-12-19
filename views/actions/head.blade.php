@@ -7,6 +7,19 @@
 
 <title>{{config('app.name', 'amaranth')}}</title>
 
+<!-- Base Js -->
+<script>
+    var
+    baseConfig = {
+        vendor_url: '{{ url('/assets/js/vendor/') }}/'
+    },
+    mikadoConfig = {
+        vendor_url: '{{ url('/assets/js/vendor/') }}/',
+        module_url: '{{ url('/assets/js/mikado/modules/') }}/'
+    }
+</script>
+<script src="{{asset('/assets/js/base/base.js')}}"></script>
+
 @include('uiManager::actions.fonts')
 
 <!-- Stylesheets -->
