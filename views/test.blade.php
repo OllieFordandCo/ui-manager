@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ app()->getLocale() }}" class="no-js">
-<head>
-    @include('uiManager::actions.head')
-</head>
-<body class="bg-primary">
-<div class="bg-half"></div>
+@extends('uiManager::layouts.app')
+
+@section('content')
 <div class="p-relative full-height">
     <div class="content v-align p-relative">
         <div>
@@ -40,6 +36,4 @@
         </div>
     </div>
 </div>
-    @include('uiManager::actions.footer')
-</body>
-</html>
+@endsection

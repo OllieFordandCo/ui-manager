@@ -11,7 +11,7 @@ class UIServiceProvider extends BaseServiceProvider
 {
 
     public function bladeDirectives() {
-        \Blade::directive('ui-css', function () {
+        \Blade::directive('uiCss', function () {
             return "<link href=\"{{asset('/assets/css/amaranth-ui.css')}}\" rel=\"stylesheet\" type=\"text/css\">";
         });
     }
