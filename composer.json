@@ -3,7 +3,6 @@
     "description": "One package to control all the UI",
     "type": "library",
     "keywords": ["laravel","lumen"],
-    "require": {},
     "require-dev": {
         "matthewbdaly/artisan-standalone": "0.0.*",
         "mockery/mockery": "~1.0",
