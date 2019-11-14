@@ -3799,6 +3799,13 @@ button, .btn {
       color: white; }
     .card.card-dark a {
       color: #4d4d4d; }
+    .card.card-dark input, .card.card-dark textarea {
+      background-color: rgba(255, 255, 255, 0.065);
+      border-right: 1px solid rgba(255, 255, 255, 0.15);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      border-left: 1px solid rgba(255, 255, 255, 0.08);
+      color: white; }
     .card.card-dark > header {
       border-top-left-radius: 0.5em;
       border-top-right-radius: 0.5em;
